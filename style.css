@@ -54,7 +54,7 @@ window#waybar {
     padding: 0 10px;
 }
 
-#cpu, #memory, #battery, #mpris, #pulseaudio, #tray {
+#cpu, #memory, #battery, #mpris, #pulseaudio, #backlight, #tray {
     color: #dcd6e8;
     padding: 0 8px;
 }

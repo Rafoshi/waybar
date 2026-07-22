@@ -9,11 +9,10 @@
 
     "modules-left": ["hyprland/workspaces", "hyprland/submap"],
     "modules-center": ["hyprland/window", "clock"],
-    "modules-right": ["mpris", "pulseaudio", "cpu", "memory", "battery", "tray"],
+    "modules-right": ["mpris", "pulseaudio", "battery", "tray"],
 
     "hyprland/workspaces": {
-        "format": "{name}",
-        "on-click": "activate"
+        "format": "{name}"
     },
 
     "hyprland/submap": {
@@ -52,6 +51,13 @@
         "format": " 󰎆 {title} - {artist}",
         "format-paused": " 󰏤 {title} - {artist}",
         "max-length": 40
+    },
+
+    "custom/brightness": {
+        "format": "  󰃠",
+        "tooltip": false,
+        "on-click": "brightnessctl -e4 -n2 set +5%",
+        "on-click-right": "brightnessctl -e4 -n2 set 5%-"
     },
 
     "pulseaudio": {
