@@ -47,6 +47,7 @@ window#waybar {
     padding: 0 10px;
 }
 
+#window,
 #clock {
     color: #e6d9ff;
     font-weight: 600;

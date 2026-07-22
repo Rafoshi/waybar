@@ -8,7 +8,7 @@
     "spacing": 4,
 
     "modules-left": ["hyprland/workspaces", "hyprland/submap"],
-    "modules-center": ["clock"],
+    "modules-center": ["hyprland/window", "clock"],
     "modules-right": ["mpris", "pulseaudio", "cpu", "memory", "battery", "tray"],
 
     "hyprland/workspaces": {
@@ -19,6 +19,11 @@
     "hyprland/submap": {
         "format": "  {}",
         "tooltip": false
+    },
+
+    "hyprland/window": {
+        "format": "{}",
+        "max-length": 50
     },
 
     "clock": {
