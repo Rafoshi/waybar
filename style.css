@@ -5,7 +5,7 @@
 }
 
 window#waybar {
-    background: #301934;
+    background: #000000;
 }
 
 /* Flat bar modules */
@@ -53,7 +53,7 @@ window#waybar {
     padding: 0 10px;
 }
 
-#cpu, #memory, #battery, #network, #pulseaudio, #tray {
+#cpu, #memory, #battery, #mpris, #pulseaudio, #tray {
     color: #dcd6e8;
     padding: 0 8px;
 }
